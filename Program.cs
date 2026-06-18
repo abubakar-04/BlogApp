@@ -76,6 +76,8 @@ if (!app.Environment.IsDevelopment())
 
 // ❌ removed UseHttpsRedirection for Render compatibility
 
+app.UseStaticFiles();
+
 app.UseRouting();
 
 app.UseAuthentication();
