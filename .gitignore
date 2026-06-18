@@ -1,0 +1,13 @@
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# Local database files
+*.db
+*.db-shm
+*.db-wal
+
+# Local configuration and secrets
+appsettings.Development.json
